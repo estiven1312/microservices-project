@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: document-ms
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/document
+  provider-service: http://localhost:8081
+  responsible-service: http://localhost:8082
